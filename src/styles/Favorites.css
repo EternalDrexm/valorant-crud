@@ -1,0 +1,56 @@
+.favorites-container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 800px;
+  margin: 100px auto;
+}
+
+.favorites-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.favorite-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 200px;
+  color: black;
+}
+
+.favorite-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.favorite-card h3 {
+  margin: 10px 0;
+}
+
+.favorite-card button {
+  padding: 10px;
+  background-color: #ff4655;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.favorite-card button:hover {
+  background-color: #e63946;
+}

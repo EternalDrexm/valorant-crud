@@ -1,0 +1,60 @@
+.read-agents-container {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px; /* Bordes más redondeados */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Sombra más profunda */
+  width: 80%;
+  max-width: 800px;
+  margin: 100px auto; /* Ajustar margen superior para centrar mejor el contenedor */
+}
+
+.read-agents-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.agents-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Centrar los elementos */
+}
+
+.agent-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 200px;
+  color: black;
+}
+
+.agent-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.agent-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.btn-update,
+.btn-delete {
+  padding: 10px;
+  background-color: #ff4655;
+  color: rgb(240, 233, 233);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn-update:hover,
+.btn-delete:hover {
+  background-color: #e63946;
+}
