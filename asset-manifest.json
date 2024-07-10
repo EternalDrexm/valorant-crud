@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/valorant-crud/static/css/main.caadd071.css",
+    "main.js": "/valorant-crud/static/js/main.c2a1e07f.js",
+    "static/media/valorant-background.jpg": "/valorant-crud/static/media/valorant-background.cad7bda8b942f280b20a.jpg",
+    "static/media/logo.png": "/valorant-crud/static/media/logo.046433dab0576578f1ee.png",
+    "index.html": "/valorant-crud/index.html",
+    "main.caadd071.css.map": "/valorant-crud/static/css/main.caadd071.css.map",
+    "main.c2a1e07f.js.map": "/valorant-crud/static/js/main.c2a1e07f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caadd071.css",
+    "static/js/main.c2a1e07f.js"
+  ]
+}
